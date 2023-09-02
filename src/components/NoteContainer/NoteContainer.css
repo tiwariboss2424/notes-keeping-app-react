@@ -1,0 +1,9 @@
+.note-component-content{
+  display:flex;
+  flex-wrap:wrap;
+  gap:1rem;
+}
+.note-component-wrap{
+  overflow-y:auto;
+  height:80vh;
+}

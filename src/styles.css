@@ -1,0 +1,29 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display:flex;
+  padding:40px;
+  gap:2rem;
+}
+body{
+  height:100vh;
+  overflow:hidden;
+}
+.custom-scroll::-webkit-scrollbar{
+  width:8px;
+}
+.custom-scroll::-webkit-scrollbar-track{
+  background:transparent;
+}
+.custom-scroll::-webkit-scrollbar-thumb{
+  border-radius:20px;
+  background:linear-gradient(to bottom,red , magenta, gold,cyan);
+  transition:300ms;
+}
+.custom-scroll::-webkit-scrollbar-thumb:hover{
+
+  background:grey;
+
+}
+
+
